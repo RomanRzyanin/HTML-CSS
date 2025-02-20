@@ -1,0 +1,11 @@
+.title {
+    background-color: aquamarine;
+}
+.heading{
+    color: brown;
+}
+.heading_about{
+    color: orangered;
+    border: 2px solid darkblue;
+    font-family: serif;
+}

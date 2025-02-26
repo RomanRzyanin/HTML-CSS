@@ -1,3 +1,8 @@
+:root {
+    --font-family: "Gilroy-Bold", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Gilroy-Medium", sans-serif;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -8,27 +13,59 @@ a {
 }
 
 .top {
+    padding-bottom: 96px;
 
 }
 
 .header {
-    padding-top: 39px;
-    padding-bottom: 39px;
+    margin-top: 40px;
+    margin-bottom: 84px;
+    
+}
+.header__link{
+    font: 400 14px "Gilroy-Medium", sans-serif;
+    color: #000;
 }
 .header__link__home{
-    color: red;
+    font: 400 14px "Gilroy-SemiBold", sans-serif;
+    color: #f25822;
 }
 .top__content {
-    margin-top: 160px;
-    margin-bottom: 197px;
+    margin-bottom: 259px;
+  
 }
 
 .title {
-    margin-bottom: 40px;
+    margin-bottom: 17px;
+    font: 400 60px "Gilroy-Bold", sans-serif;
+    color: #000;
+}
+.text{
+    font: 400 20px "Gilroy-Medium", sans-serif;
+    color: #888;
 }
 
 .top__buttons {
-    margin-top: 50px;
+    margin-top: 37px;
+
+}
+.button__start{
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    font: 400 15px "Gilroy-Bold", sans-serif;
+    color: #fff;
+    transition: 0.5s ease;
+    margin-right: 72px;
+}
+.button__start:hover{
+    background-color: #cf4a1a;
+}
+.button__watch{
+    font: 400 15px "Gilroy-Bold", sans-serif;
+    color: #aaa;
 }
 
 
